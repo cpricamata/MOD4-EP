@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Activity</title>
 
     <style>
@@ -16,6 +17,8 @@
         .container {
             padding: 20px;
             text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         .form-box {
@@ -24,7 +27,7 @@
         }
 
         table {
-            width: 50%;
+            width: 80%;
             margin: auto;
             margin-top: 30px;
             border-collapse: collapse;
@@ -51,6 +54,24 @@
         .large-field {
             width: 300px;
         }
+
+        .content {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .left-panel {
+            width: 200px;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .right-panel {
+            flex:1;
+        }
+
+
     </style>
 
 </head>
@@ -88,121 +109,148 @@
 
         </form>
 
-        <table>
-            <tr>
-                <th>#</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Superhero Name</th>
-            </tr>
+        <div class="content">
+            <div class="left-panel">
+                <div class="panel-item"><a href="details.html">Dummy #1</a></div>
+                <div class="panel-item"><a href="details.html">Dummy #2</a></div>
+                <div class="panel-item"><a href="details.html">Dummy #3</a></div>
+                <div class="panel-item"><a href="details.html">Dummy #4</a></div>
+                <div class="panel-item"><a href="details.html">Dummy #5</a></div>
+                <div class="panel-item"><a href="details.html">Dummy #6</a></div>
+                <div class="panel-item"><a href="details.html">Dummy #7</a></div>
+                <div class="panel-item"><a href="details.html">Dummy #8</a></div>
+            </div>
 
-            <tr>
-                <td>1</td>
-                <td>Bruce</td>
-                <td>Wayne</td>
-                <td>Batman</td>
-            </tr>
+            <div class="right-panel">
 
-            <tr>
-                <td>2</td>
-                <td>Selina</td>
-                <td>Kyle</td>
-                <td>Catwoman</td>
-            </tr>
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Superhero Name</th>
+                    </tr>
 
-            <tr>
-                <td>3</td>
-                <td>Diana</td>
-                <td>Prince</td>
-                <td>Wonder Woman</td>
-            </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="details.html">Bruce</a></td>
+                        <td>Wayne</td>
+                        <td>Batman</td>
+                    </tr>
 
-            <tr>
-                <td>4</td>
-                <td>Harlene</td>
-                <td>Quinzel</td>
-                <td>Harley Quinn</td>
-            </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><a href="details.html">Selina</a></td>
+                        <td>Kyle</td>
+                        <td>Catwoman</td>
+                    </tr>
 
-            <tr>
-                <td>5</td>
-                <td>Damian</td>
-                <td>Wayne</td>
-                <td>Robin</td>
-            </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><a href="details.html">Diana</a></td>
+                        <td>Prince</td>
+                        <td>Wonder Woman</td>
+                    </tr>
 
-            <tr>
-                <td>6</td>
-                <td>Wanda</td>
-                <td>Maximoff</td>
-                <td>Scarlet Witch</td>
-            </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><a href="details.html">Harlene</a></td>
+                        <td>Quinzel</td>
+                        <td>Harley Quinn</td>
+                    </tr>
 
-            <tr>
-                <td>7</td>
-                <td>Sue</td>
-                <td>Storm</td>
-                <td>The Invisible Woman</td>
-            </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><a href="details.html">Damian</a></td>
+                        <td>Wayne</td>
+                        <td>Robin</td>
+                    </tr>
 
-            <tr>
-                <td>8</td>
-                <td>Natasha</td>
-                <td>Romanoff</td>
-                <td>Black Widow</td>
-            </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><a href="details.html">Wanda</a></td>
+                        <td>Maximoff</td>
+                        <td>Scarlet Witch</td>
+                    </tr>
 
-            <tr>
-                <td>9</td>
-                <td>Peter</td>
-                <td>Parker</td>
-                <td>Spider-man</td>
-            </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><a href="details.html">Sue</a></td>
+                        <td>Storm</td>
+                        <td>The Invisible Woman</td>
+                    </tr>
 
-            <tr>
-                <td>10</td>
-                <td>Tony</td>
-                <td>Stark</td>
-                <td>Iron Man</td>
-            </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><a href="details.html">Natasha</a></td>
+                        <td>Romanoff</td>
+                        <td>Black Widow</td>
+                    </tr>
 
-            <tr>
-                <td>11</td>
-                <td>Kara</td>
-                <td>Danvers</td>
-                <td>Super Girl</td>
-            </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><a href="details.html">Peter</a></td>
+                        <td>Parker</td>
+                        <td>Spider-man</td>
+                    </tr>
 
-            <tr>
-                <td>12</td>
-                <td>Bob</td>
-                <td>Parr</td>
-                <td>Mr. Incredible</td>
-            </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><a href="details.html">Tony</a></td>
+                        <td>Stark</td>
+                        <td>Iron Man</td>
+                    </tr>
 
-            <tr>
-                <td>13</td>
-                <td>Helen</td>
-                <td>Parr</td>
-                <td>Elastigirl</td>
-            </tr>
+                    <tr>
+                        <td>11</td>
+                        <td><a href="details.html">Kara</a></td>
+                        <td>Danvers</td>
+                        <td>Super Girl</td>
+                    </tr>
 
-            <tr>
-                <td>14</td>
-                <td>Jackson</td>
-                <td>Parr</td>
-                <td>Jack-Jack</td>
-            </tr>
+                    <tr>
+                        <td>12</td>
+                        <td><a href="details.html">Bob</a></td>
+                        <td>Parr</td>
+                        <td>Mr. Incredible</td>
+                    </tr>
 
-            <tr>
-                <td>15</td>
-                <td>Reed</td>
-                <td>Richards</td>
-                <td>Mister Fantastic</td>
-            </tr>
-        </table>
+                    <tr>
+                        <td>13</td>
+                        <td><a href="details.html">Helen</a></td>
+                        <td>Parr</td>
+                        <td>Elastigirl</td>
+                    </tr>
+
+                    <tr>
+                        <td>14</td>
+                        <td><a href="details.html">Jackson</a></td>
+                        <td>Parr</td>
+                        <td>Jack-Jack</td>
+                    </tr>
+
+                    <tr>
+                        <td>15</td>
+                        <td><a href="details.html">Reed</a></td>
+                        <td>Richards</td>
+                        <td>Mister Fantastic</td>
+                    </tr>
+
+                    <tr>
+                        <td>16</td>
+                        <td><a href="details.html">Extra #1</a></td>
+                        <td>Sample</td>
+                        <td>Sample</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
     </div>
+
+    <audio controls autoplay loop>
+        <source src="i'm just ken.mp3" type="audio/mpeg">
+    </audio>
 
 </body>
 
