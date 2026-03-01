@@ -16,6 +16,12 @@
     a {
         text-decoration: none;
     }
+
+    audio {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
 </style>
 
 </head>
@@ -456,13 +462,14 @@
         <hr>
         <div class="col pb-3 text-center">
             @happywines
+            <div>
+                <audio controls autoplay loop>
+                    <source src="i'm just ken.mp3" type="audio/mpeg">
+                    You browser does not support audio.
+                </audio>
+            </div>
         </div>
     </div>
-
-    <audio controls autoplay loop>
-        <source src="i'm just ken.mp3" type="audio/mpeg">
-        You browser does not support audio.
-    </audio>
 
 </body>
 </html>
