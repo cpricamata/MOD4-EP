@@ -64,6 +64,30 @@
             margin-bottom: 10em;
         }
 
+        
+     
+        .image-gallery {
+            text-align: center; 
+            margin-top: 20px;
+        }
+
+        .image-item {
+            display: inline-block; 
+            vertical-align: top;
+            margin: 30px;          
+            text-align: center;     
+        }
+
+        .image-item img {
+            height: 400px; 
+            width: auto;   
+            border-radius: 10px;
+            border: 2px solid white;
+            display: block;
+            margin: 0 auto; 
+        }
+
+
         audio {
         position: fixed;
         bottom: 20px;
@@ -87,7 +111,6 @@
         <h1 class="display-4">Happy Wines</h1>
         <p> Welcome to Happy Wines! Happy Wines is the collector and producer of premium wines.</p>
 
-        <!-- BUTTON GROUP -->
         <div class="btn-group mt-3">
             <button class="btn btn-light"><a href="#Carmen">Carmen Duran</a></button>
             <button class="btn btn-light"><a href="#Czairra">Czairra Ricamata</a></button>
@@ -98,18 +121,23 @@
 
     <br>
     <br>
-    <div class="container text-center mt-5">
-        <h4 id="Carmen">Carmen</h4>
-        <p>Head Wine Collector</p>
-        <p class="long-line-break"></p>
+    
+    
+    <div class="image-gallery">
+        <div class="image-item" id="Carmen">
+            <img src="wine 2 branding.webp" alt="Carmen">
+            <p><b>Carmen Duran</b><br>Head Wine Collector</p>
+        </div>
 
-        <h4 id="Czairra">Czairra</h4>
-        <p>Production Manager</p>
-        <p class="long-line-break"></p>
+        <div class="image-item" id="Czairra">
+            <img src="branding 1.webp" alt="Czairra">
+            <p><b>Czairra Ricamata</b><br>Production Manager</p>
+        </div>
 
-        <h4 id="Andrea">Andrea</h4>
-        <p>Marketing Director</p>
-        <br>
+        <div class="image-item" id="Andrea">
+            <img src="branding 2.jpg" alt="Andrea">
+            <p><b>Andrea Tuazon</b><br>Marketing Director</p>
+        </div>
     </div>
 
     <audio controls autoplay loop>
